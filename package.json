@@ -1,0 +1,39 @@
+{
+  "name": "simple-algorithmic-langage-support",
+  "displayName": "Simple Algorithmic Langage Support",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "iutalgo",
+      "aliases": ["Langage Algorithmique Simple", "iutalgo"],
+      "extensions": [".alg"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "iutalgo",
+      "scopeName": "source.alg",
+      "path": "./syntaxes/iutalgo.tmLanguage.json"
+    }],
+
+    "themes": [
+            {
+                "label": "My Custom Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/iutalgo-color-theme.json"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "iutalgo",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+  }
+}

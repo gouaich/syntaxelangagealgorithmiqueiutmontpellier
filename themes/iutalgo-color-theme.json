@@ -1,0 +1,38 @@
+ {
+    "name": "My Custom Theme",
+    "type": "dark",
+    "colors": {},
+    "tokenColors": [
+        {
+            "scope": "keyword.spec.iutalg",
+            "settings": {
+                "foreground": "#6EEB83"
+            }
+        },
+        {
+            "scope": "keyword",
+            "settings": {
+                "foreground": "#4FA8FF"
+            }
+        },
+        {
+            "scope": "comment",
+            "settings": {
+                "foreground": "#A0A0A0",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "keyword.block.iutalg",
+            "settings": {
+                "foreground": "#FFD866"
+            }
+        },
+        {
+            "scope": "storage.type",
+            "settings": {
+                "foreground": "#FF62A5"
+            }
+        }
+    ]
+}
